@@ -46,7 +46,7 @@ st.markdown(
 
 # Animated / stylized title
 st.markdown('<div class="title">⚡ Calculadora de Conversiones by Alan ⚡</div>', unsafe_allow_html=True)
-st.markdown('<div class="subtitle">Interfaz gamer • Selecciona categoría y convierte</div>', unsafe_allow_html=True)
+st.markdown('<div class="subtitle">• Selecciona categoría y convierte</div>', unsafe_allow_html=True)
 
 # Helper: conversion function using factor dictionaries (base units)
 def convert_using_factors(value, origen_factor, destino_factor):
@@ -224,8 +224,9 @@ st.markdown("</div>", unsafe_allow_html=True)
 st.markdown(
     """
     <div style="text-align:center;color:#6fb3ff;margin-top:14px;">
-    Hecha por Alan • ¡Preséntala con orgullo! 🎮
+    Hecha por Alan • 🎮
     </div>
     """,
     unsafe_allow_html=True
 )
+
